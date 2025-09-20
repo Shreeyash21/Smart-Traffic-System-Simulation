@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Traffic Management System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center p-8">
+
+  <div class="text-center mb-8">
+    <h1 class="text-4xl font-bold mb-2">Smart Traffic Management</h1>
+    <p class="text-gray-400">A dynamic simulation of a four-way intersection.</p>
+  </div>
+
+  <div class="bg-gray-800 p-6 rounded-xl shadow-lg w-full max-w-4xl flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-8">
+    <canvas id="trafficCanvas" class="flex-grow"></canvas>
+
+    <div class="controls w-full md:w-auto flex-shrink-0">
+      <h2 class="text-2xl font-bold mb-4">Controls & Metrics</h2>
+      <div class="grid grid-cols-2 gap-4 mb-4">
+        <div class="text-center">
+          <p class="text-gray-400">Road North</p>
+          <div id="queue-N" class="text-xl font-bold text-blue-300">0</div>
+        </div>
+        <div class="text-center">
+          <p class="text-gray-400">Road South</p>
+          <div id="queue-S" class="text-xl font-bold text-blue-300">0</div>
+        </div>
+        <div class="text-center">
+          <p class="text-gray-400">Road West</p>
+          <div id="queue-W" class="text-xl font-bold text-blue-300">0</div>
+        </div>
+        <div class="text-center">
+          <p class="text-gray-400">Road East</p>
+          <div id="queue-E" class="text-xl font-bold text-blue-300">0</div>
+        </div>
+      </div>
+
+      <div class="flex flex-col space-y-3">
+        <button id="startButton" class="btn btn-start">Start Simulation</button>
+        <button id="pauseButton" class="btn btn-pause">Pause Simulation</button>
+        <button id="stopButton" class="btn btn-stop">Stop Simulation</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- External Script -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+Smart Traffic Management System Requirements
+This document outlines the minimal requirements to run the smart_traffic_system.html simulation.
+
+1. Software Dependencies
+
+Web Browser: A modern web browser (e.g., Chrome, Firefox, Safari, Edge) that supports HTML5, CSS3, and JavaScript.
+
+2. Network Connectivity
+
+Internet Connection: An active internet connection is required to load the following external libraries from Content Delivery Networks (CDNs):
+
+Tailwind CSS: For styling the user interface.
+
+Google Fonts: For the "Inter" typeface used in the design.
+
+3. Execution
+
+Simply open the smart_traffic_system.html file in your web browser to start the simulation.

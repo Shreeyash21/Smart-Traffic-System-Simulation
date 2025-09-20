@@ -1,0 +1,28 @@
+Smart Traffic Management System Simulation
+Overview
+This project is a dynamic web-based simulation of a four-way traffic intersection. The system uses a smart algorithm to manage traffic flow by prioritizing the road with the longest queue of vehicles. It provides a visual representation of how a real-world smart traffic system would operate to reduce congestion.
+
+Features
+Dynamic Traffic Light Control: Traffic lights automatically change based on the real-time number of cars waiting at each intersection.
+
+Real-time Metrics: The simulation displays the number of vehicles in the queue for each of the four roads (North, South, East, and West).
+
+Interactive Controls: Users can start, pause, and stop the simulation. You can also manually add new vehicles to any of the roads to see how the system adapts.
+
+Single-File Simplicity: The entire project is contained within a single smart_traffic_system.html file, which includes all the HTML, CSS, and JavaScript. This makes it easy to run by simply opening the file in a web browser.
+
+How to Run
+Ensure you have a modern web browser and an internet connection.
+
+Open the smart_traffic_system.html file in your browser.
+
+The simulation will start automatically.
+
+Controls
+Start Simulation: Begins the traffic flow and light cycles.
+
+Pause/Resume Simulation: Pauses the simulation and resumes it from the same point.
+
+Stop Simulation: Resets the simulation, clearing all vehicles and queues.
+
+Add Vehicle: Adds a new vehicle to the selected road to test the system's responsiveness.s
